@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Build
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Security research - local artifacts
+secrets/
+credentials/
+*.pcap
+*.pcapng
